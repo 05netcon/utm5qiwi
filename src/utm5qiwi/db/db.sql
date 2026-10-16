@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS osmp;
+USE osmp;
+CREATE TABLE IF NOT EXISTS temp (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    txn_id VARCHAR(20),
+    account VARCHAR(10),
+    sum VARCHAR(13),
+    check VARCHAR(1)
+);
